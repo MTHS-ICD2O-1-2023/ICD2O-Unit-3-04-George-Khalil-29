@@ -3,3 +3,8 @@
 // Created by: Mr. Coxall
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
+
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML = (valNum - 32) / 1.8;
+}
