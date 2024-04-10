@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * This function calculates area of a triangle.
+ * This function Convert fahrenheit to celisus.
  */
 function temperatureConvert() {
 
