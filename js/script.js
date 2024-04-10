@@ -15,7 +15,7 @@ function temperatureConvert() {
   const fahrenheit = parseFloat(document.getElementById("fahrenheit").value);
 
   //process
-  const celsius = (fahrenheit - 32) * 5 / 9;
+  const celsius = (fahrenheit - 32) * 5.0 / 9.0;
 
   //output
   document.getElementById("result").textContent = `Temperature in Celsius: ${celsius.toFixed(2)}°C`;

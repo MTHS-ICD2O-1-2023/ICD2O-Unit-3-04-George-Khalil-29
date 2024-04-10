@@ -59,3 +59,7 @@ button {
   font-size: 20px;
   cursor: pointer;
 }
+
+.formula {
+  color: yellow;
+}
