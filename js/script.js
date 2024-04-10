@@ -1,10 +1,22 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2024 George, khalil All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: George, Khalil
+// Created on: Apr 2024
 // This file contains the JS functions for index.html
 
-function temperatureConverter(valNum) {
-  valNum = parseFloat(valNum);
-  document.getElementById("outputCelcius").innerHTML = (valNum - 32) / 1.8;
+"use strict"
+
+/**
+ * This function calculates area of a triangle.
+ */
+function temperatureConvert() {
+
+  //input
+  const fahrenheit = parseFloat(document.getElementById("fahrenheit").value);
+
+  //process
+  const celsius = (fahrenheit - 32) * 5 / 9;
+
+  //output
+  document.getElementById("result").textContent = `Temperature in Celsius: ${celsius.toFixed(2)}°C`;
 }

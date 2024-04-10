@@ -2,3 +2,60 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+.page-content {
+  color: rgb(0 0 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+.page-content-answer {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #333333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
